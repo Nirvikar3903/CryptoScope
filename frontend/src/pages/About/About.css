@@ -1,0 +1,71 @@
+.about-page {
+    font-family: 'Arial', sans-serif;
+    margin: 50px 140px;
+    color: #333;
+    
+  }
+  
+  .about-page h1, h2 {
+    color: gold; /* Primary color for headings */
+  }
+  
+  .about-cryptoscope, .mission , .contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+    width: 75vw;
+  }
+  
+  ul {
+    /* list-style: none; */
+    padding-left: 40px;
+    padding-top: 20px;
+    color: white;
+
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .contact-info ul {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: none;
+    color: #0077b6;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+  }
+  
+  .contact-info a:hover {
+    color: #005f8b; /* Hover effect color */
+  }
+  
+  .social-logo {
+    font-size: 24px; /* Size of the icon */
+    margin-right: 10px; /* Space between icon and text */
+    transition: transform 0.3s ease;
+  }
+  
+  .social-logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  

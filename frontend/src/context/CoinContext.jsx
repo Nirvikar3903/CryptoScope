@@ -9,6 +9,7 @@ import { createContext, useEffect, useState } from "react";
         name:"usd",
         symbol:"$",
     })
+    
 
     const fetchAllCoin = async()=>{
         const options = {

@@ -2,18 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10%;
+    padding: 5px 10%;
     color: #ddd;
     border-bottom: 2px solid #3c3c3c;
 }
 .logo{
-     height: 130px; 
-    width: max(12vw , 120px) ;
+     /* height: 110px;  */
+    width: max(8vw) ;
 }
 .navbar ul{
     display: flex;
     gap: 40px;
     list-style: none;
+    font-size: 20px;
 }
 .navbar li{
     cursor: pointer;
@@ -73,4 +74,8 @@
     .navbar button img{
         width: 12px;
     }
+    .logo{
+        height: 55px; 
+       width: max(23vw) ;
+   }
 }
